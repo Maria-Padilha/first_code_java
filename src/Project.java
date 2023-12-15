@@ -9,7 +9,7 @@ public class Project extends Utils{
 
     // adicionando nova classe dentro de outra = vira uma classe privada
     class ClassePrivada{
-            
+        
     }
 
     public static void chamandoMain(String[] args){
