@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javax.print.DocFlavor.STRING;
-
 public class Exercise3 {
     
     public int[] numeros = {1,2,3};
@@ -45,7 +43,7 @@ public class Exercise3 {
                                 pontos++;
                                 System.out.println("Parabéns! Você pontuou.");
                                 System.out.println("Final de jogo, sua pontuação foi de: "+pontos);
-                                
+
                             }else{
                                 System.out.println("Que pena, você errou! Obrigada por participar "+nome);
                                 System.out.println("Pontuação: "+pontos);
@@ -71,8 +69,8 @@ public class Exercise3 {
             }
 
         }else{
-            System.out.println("Acabou o jogo!");
-            System.out.println("Pontos: 0");
+            System.out.println("Ok! Jogo finalizado!");
+            System.out.println("Pontos: "+pontos);
         }
         
     }
