@@ -1,13 +1,13 @@
 public class Main {
 
-    public char[] nome = {'M','a','r','i','a'};
+    public char[] numeros = {10,20,30};
     public Main(){
-        String nomeCompleto = "";
+        int soma = 0;
 
-        for(int i = 0; i < nome.length; i++){
-            nomeCompleto+=nome[i];
+        for(int i = 0; i < numeros.length; i++){
+            soma+=numeros[i];
         }
-        System.out.println(nomeCompleto);
+        System.out.println(soma);
     }
     
     public static void main (String args[]){
